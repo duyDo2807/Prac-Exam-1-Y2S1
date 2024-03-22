@@ -6,7 +6,7 @@ class BagOfHolding {
     private:
       int numItems;
     public:
-      BagOfHolding();
+      BagOfHolding(int numItems);
       void addItem();
       void removeItem();
 };
